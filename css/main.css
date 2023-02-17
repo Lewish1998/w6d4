@@ -1,0 +1,39 @@
+body {
+  font-family: Palatino;
+  background-color: antiquewhite;
+}
+
+* {
+  text-align: center;
+}
+
+#form-wrapper {
+  font-size: 25px;
+  border: solid 5px black;
+  padding:20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#book-border {
+  border:black 5px solid;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  list-style: none;
+}
+
+
+
+#reading-list {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#book-border:hover {
+  transition: 1s;
+  color:cornflowerblue;
+  border-color: cornflowerblue;
+  color: black;
+  background-color:lightcoral;
+}

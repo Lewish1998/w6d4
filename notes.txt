@@ -1,0 +1,5 @@
+take title, author, catagory and add after 'reading list title' when the save button is clicked
+
+* get data from everything
+* find where the data is going to going
+* format the data
